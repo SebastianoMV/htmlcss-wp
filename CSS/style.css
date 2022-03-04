@@ -1,0 +1,109 @@
+/* utility */
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 70%;
+  max-width: 1500px;
+  min-width: 1000px;
+  margin: auto;
+}
+
+.column {
+  float: left;
+  height: 450px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+/* header */
+
+.banner {
+  height: 100px;
+  background-color: #d571d5;
+  margin-bottom: 20px;
+}
+
+
+/* menu */
+
+nav {
+  text-align: right;
+  padding: 20px 0px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  background-color: #abcfe7;
+  padding: 10px;
+}
+
+li a {
+  text-decoration: none;
+}
+
+li a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+
+.jumbotron {
+  height: 400px;
+  background-color: #e1d67a;
+  margin-bottom: 20px;
+}
+
+
+/* main */
+
+.title {
+  height: 80px;
+  background-color: #abcfe7;
+}
+
+.bgr-color {
+  background-color: #0186fe;
+}
+
+.col-sx {
+  width: 20%;
+  background-color: #abcfe7;
+  margin-right: 20px;
+}
+
+.col-center {
+  width: calc(100% - 40% - 40px);
+  background-color: #abcfe7;
+}
+
+.col-dx {
+  width: 20%;
+  background-color: #abcfe7;
+  margin-left: 20px;
+}
+
+/* footer */
+
+.foot {
+  height: 70px;
+  margin-top: 10px;
+  background-color: #6409b4;
+}
+
+
+/* margini calc */
