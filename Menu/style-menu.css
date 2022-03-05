@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.clearfix {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.container {
+  margin: auto;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+/* IMMAGINI */
+
+.img-box {
+  width: 200px;
+  height: 200px;
+  background-color: antiquewhite;
+  margin: 40px;
+  float: left;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+  background-repeat: no-repeat;
+  border: 1px solid black;
+}
+
+#pic1 {
+  background-image: url(../IMG/img-2.jpg);
+}
+
+#pic2 {
+  background-image: url(../IMG/img-4.jpg);
+}
+
+#pic3 {
+  background-image: url(../IMG/img-5.jpg);
+}
+
+a:hover {
+  width: 250px;
+  height: 250px;
+  
+}
