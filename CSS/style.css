@@ -3,7 +3,11 @@
   margin:0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif;;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body{
+  color: #a3a3a3;
 }
 
 .clearfix::after {
@@ -30,40 +34,42 @@
   height: 100%;
 }
 
-.bold{
+.bold {
   font-weight: bolder;
 }
+
+.black {
+  color: black;
+}
+
 
 /* header */
 
 .banner {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   text-transform: uppercase;
 }
 
 .logo {
-  width: 15%;
+  width: 180px;
   margin-top: 0px;
   display: block;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   padding-right: 10px;
   border-right: 1px solid lightgray;
 }
 
+
 /* MENU */
 
-ul {
+nav ul li {
+  display: inline-block;
+  padding-right: 15px;
   list-style: none;
 }
 
-ul li {
-  display: inline-block;
-  padding: 10px 15px 0px 0px;
-}
-
-ul li a {
+nav ul li a {
   text-decoration: none;
-  color: #a3a3a3;
 }
 
 ul li a:hover {
@@ -71,8 +77,8 @@ ul li a:hover {
   color: black;
 }
 
-/* FINE MENU */
 
+/* JUMBO */
 
 .jumbotron {
   height: 450px;
@@ -85,20 +91,20 @@ ul li a:hover {
   color: white;
 }
 
-.jumbotron .text-jumb{
+.jumbotron .text-jumb {
   padding-top: 25%;
   padding-left: 50px;
 }
 
-.text-jumb h2, .text-jumb p{
+.text-jumb h2, .text-jumb p {
   width: 50%;
 }
 
 
 /* main */
 
+
 .title p {
-  color: #a3a3a3;
   margin-bottom: 20px;
 }
 
@@ -118,9 +124,9 @@ ul li a:hover {
   margin-left: 2%;
 }
 
-.img-col{
+.img-col {
   width: 100%;
-  height: 150px;
+  height: 200px;
   background-position: center;
   border-radius: 20px;
   background-size: cover;
@@ -128,15 +134,15 @@ ul li a:hover {
   margin-bottom: 10px;
 }
 
-.col-sx .img-col{
+.col-sx .img-col {
   background-image: url(../IMG/img-1.jpg);
 }
 
-.col-center .img-col{
+.col-center .img-col {
   background-image: url(../IMG/banner-2.jpg);
 }
 
-.col-dx .img-col{
+.col-dx .img-col {
   background-image: url(../IMG/img-3.jpg);
 }
 
@@ -144,9 +150,6 @@ h5{
   margin-bottom: 10px;
 }
 
-.column p{
-  color: #a3a3a3;
-}
 
 /* footer */
 
@@ -155,9 +158,12 @@ h5{
   text-align: center;
 }
 
-.red{
+footer div::after {
+  content: ' \2764';
   color: red;
-  font-size: 25px;
+  font-size: 20px;
 }
+
+
 
 
